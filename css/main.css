@@ -5,8 +5,8 @@
 }
 
 .main__image {
-    max-width: 100%;
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0px 5px 10px #0000004d;
