@@ -1,0 +1,185 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.backgroundSettings {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #353535;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.dark {
+    background-color: #3f4660;
+    color: #ffffff;
+}
+
+.button {
+    font: 200;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    outline: 1px solid #89B0AE;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #89B0AE;
+    display: block;
+    font-size: 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.header {
+    font-family: 'Inspiration', cursive;
+    color: #89B0AE;
+    font-size: 100px;
+    font-style: italic;
+    border-bottom: 1px solid #89B0AE;
+    padding: 10px;
+}
+
+.navigation {
+    border-bottom: 1px solid #89B0AE;
+    text-align: center;
+}
+
+.navigationList {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 10px 5px 10px 5px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.navigationLink {
+    text-decoration: none;
+    color: #89B0AE;
+}
+
+.navigationLink:focus {
+    outline: 2px solid black;
+}
+
+.navigationLink:hover {
+    color: #353535;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigationLink:active {
+    color: #19848990
+}
+
+.subHeader {
+    text-align: center;
+    font-weight: 400;
+    padding: 6px;
+}
+
+.container {
+    text-align: left;
+    margin: 20px 5px 20px 5px;
+}
+
+.image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 30%);
+}
+
+.imageAuthor {
+    width: 280px;
+    margin: 10px;
+}
+
+.section {
+    border-bottom: 1px solid #89B0AE;
+}
+
+.sectionHeader {
+    text-align: center;
+    padding: 3px;
+}
+
+.imageDog {
+    width: 280px;
+}
+
+.containerTable {
+    overflow-x: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    padding: 1px;
+    width: 100%;
+    margin: 20px 5px;
+}
+
+.tableCaption {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.tableRow:hover {
+    background-color: #D9D9D9;
+}
+
+.tableCell {
+    border: 0.5px solid #000000;
+    padding: 7px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tableHeader {
+    background-color: #89B0AE;
+    color: #ffffff;
+}
+
+.textImportant {
+    color: #89B0AE;
+    font-weight: bold;
+}
+
+.contactMe {
+    text-align: center;
+    margin: 20px;
+}
+
+.contact {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buttonContact {
+    margin: 0 auto;
+}
+
+.contactLink {
+    text-decoration: none;
+    color: #353535;
+}
+
+.hide {
+    display: none;
+}
+
+.footer {
+    border-top: 1px solid #89B0AE;
+    text-align: center;
+    margin-top: 30px;
+    color: #89B0AE;
+    font-size: 12px;
+}

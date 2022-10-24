@@ -1,0 +1,32 @@
+.navigation {
+    border-bottom: 1px solid #89B0AE;
+    text-align: center;
+}
+
+.navigation__item {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 10px 5px 10px 5px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #89B0AE;
+}
+
+.navigation__link:focus {
+    outline: 2px solid black;
+}
+
+.navigation__link:hover {
+    color: #353535;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: #19848990
+}
