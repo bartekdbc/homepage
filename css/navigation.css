@@ -3,12 +3,21 @@
     text-align: center;
 }
 
+.navigation__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding-left: 10px;
+}
+
 .navigation__item {
     list-style-type: none;
     font-size: 18px;
     padding: 10px 10px;
     margin: 10px 5px 10px 5px;
-    width: 250px;
+    max-width: 250px;
     margin: 0 auto;
 }
 
@@ -28,5 +37,5 @@
 }
 
 .navigation__link:active {
-    color: #19848990
+    color: #19848990;
 }
