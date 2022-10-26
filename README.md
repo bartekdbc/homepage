@@ -1,6 +1,6 @@
 # Virtual Business Card 📇
 
-![Bartek](https://github.com/bartekdbc/homepage/blob/main/images/share.png)
+![Bartek](https://github.com/bartekdbc/homepage/blob/main/images/headline.png)
 
 ## Table of content 
 
