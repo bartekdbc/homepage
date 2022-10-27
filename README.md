@@ -4,10 +4,9 @@
 
 ## Table of content 
 
-- [Demo](#demo-🕹️)
-- [Description](#description-📖)
-- [Preview](#preview-👀)
-- [Technologies](#technologies-🤖)
+- Demo
+- Description
+- Technologies
 
 ## Demo 🕹️
 
