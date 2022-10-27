@@ -5,7 +5,7 @@
 ## Table of content 
 
 - Demo
-- Description]
+- Description
 - Preview
 - Technologies
 
