@@ -5,10 +5,10 @@
 
   const toggleBackground = () => {
     const bodyElement = document.querySelector(".js-body");
-    const header__themeNameElement = document.querySelector(".js-themeName");
+    const headerthemeNameElement = document.querySelector(".js-themeName");
 
     bodyElement.classList.toggle("body--darkTheme");
-    header__themeNameElement.innerText = bodyElement.classList.contains(
+    headerthemeNameElement.innerText = bodyElement.classList.contains(
       "body--darkTheme"
     )
       ? "Jasny"
@@ -16,24 +16,24 @@
   };
 
   const showDetails = () => {
-    const section__contactElement = document.querySelector(".js-contact");
-    const section__buttonContactElement =
+    const sectioncontactElement = document.querySelector(".js-contact");
+    const sectionbuttonContactElement =
       document.querySelector(".js-buttonContact");
 
-    section__contactElement.classList.toggle("section__contact--hide");
-    section__buttonContactElement.innerText =
-      section__contactElement.classList.contains("section__contact--hide")
+    sectioncontactElement.classList.toggle("section__contact--hide");
+    sectionbuttonContactElement.innerText =
+      sectioncontactElement.classList.contains("section__contact--hide")
         ? "Pokaż kontakt"
         : "Ukryj kontakt";
   };
 
   const init = () => {
-    const header__buttonElement = document.querySelector(".js-button");
-    const section__buttonContactElement =
+    const headerbuttonElement = document.querySelector(".js-button");
+    const sectionbuttonContactElement =
       document.querySelector(".js-buttonContact");
 
-    header__buttonElement.addEventListener("click", toggleBackground);
-    section__buttonContactElement.addEventListener("click", showDetails);
+    headerbuttonElement.addEventListener("click", toggleBackground);
+    sectionbuttonContactElement.addEventListener("click", showDetails);
 
     welcome();
   };
