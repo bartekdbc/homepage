@@ -9,17 +9,17 @@
 
 .header__button {
     font-family: 'Montserrat', sans-serif;
-    font: 200;
-    width: 60px;
-    height: 30px;
+    width: 100%;
+    max-width: 90px;
+    padding: 6px;
     border-radius: 10px;
     border: 0;
     outline: 1px solid #89B0AE;
     cursor: pointer;
-    background-color: #ffffff;
-    color: #89B0AE;
+    background-color: #89B0AE;
+    color: #ffffff;
     display: block;
-    font-size: 7px;
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
     margin-left: 20px;
